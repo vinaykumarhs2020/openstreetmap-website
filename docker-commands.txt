@@ -1,0 +1,2 @@
+docker run -it -P -v /home/vinay/Vinay/openstreetmap-website:/data/openstreetmap-website -p 3000:3000 --network host test /bin/bash
+docker build -t test .
